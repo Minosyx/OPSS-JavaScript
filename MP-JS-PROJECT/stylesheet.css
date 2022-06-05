@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+body{
+  background-image: url(https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/457/700/datas/original.png);
+  background-repeat: repeat;
+}
+canvas{
+  border: 2px white solid;
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#controls{
+  font-size: 20px;
+}
+#controls:hover + #c1{
+  opacity: 1;
+}
+#c1{
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+#lives{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#pLives{
+  font-size: 40px;
+}

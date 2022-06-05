@@ -1,0 +1,56 @@
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>Ping-Pong</title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      *{
+        margin: 0;
+        color: white;
+        font-size: 50px;
+        font-family: 'Press Start 2P', cursive;
+      }
+      canvas{
+        border: 1px solid white;
+        display: block;
+        margin: 0 auto;
+      }
+      body{
+        background-color: black;
+      }
+      .score{
+        display: inline-block;
+      }
+      #score1, #p1{
+        text-align: left;
+      }
+      #score2, #p2{
+        text-align: right;
+      }
+      #wrapper, #wrapP{
+        margin: 0 auto;
+        width: fit-content;
+      }
+      #info{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      #controls{
+        font-size: 20px;
+      }
+      #controls:hover + #c1{
+        opacity: 1;
+      }
+      #c1{
+        font-size: 20px;
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="ex.js"></script>
+  </body>
+</html>

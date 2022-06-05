@@ -1,0 +1,44 @@
+<!-- Laboratorium służy do graficznej prezentacji (histogram) wygenerowanych liczb -->
+<!-- losowych podlegających rozkładowi normalnemu lub jednorodnemu. Za pomocą dwóch -->
+<!-- elementów `<input>` pobierane są informacje niezbędne do stworzenia histogramu -->
+<!-- t.j. liczba próbek do wygenerowania oraz liczba przedziałów histogramu. Za -->
+<!-- pomocą elementu '<select>` użytkownik określa, czy liczby losowe mają podlegać -->
+<!-- rozkładowi normalnemu bądź jednorodnemu. Histogram pojawia się na stronie --
+  -- po naciśnięciu elementu `<button>`-->
+
+  <html>
+    <head>
+      <style>
+        h1{
+          text-align: center;
+        }
+	      table{
+          margin: 0 auto;
+          border: 2px solid black;
+          border-spacing: 0;
+        }
+        tr{
+          background-origin: border-box;
+        }
+        td{
+          padding: 0;
+          width: 8px;
+          height: 0;
+        }
+      </style>
+    </head>
+    <body>
+      <!-- Tutaj dodaj swój kod -->
+      <label for="amount">Podaj liczbę próbek</label><br />
+      <input type="number" id="amount" name="amount"><br />
+      <label for="section">Podaj liczbę przedziałów histogramu</label><br />
+      <input type="number" id="section" name="section"><br />
+      <select id="rozklad" class="rozklad" name="rozklad">
+        <option value='' disabled selected>Wybierz typ rozkładu</option>
+        <option value="normalny">Normalny</option>
+        <option value="jednorodny">Jednorodny</option>
+      </select><br />
+      <button type="button" name="button">OK</button>
+      <script src="ex.js"></script>
+    </body>
+  </html>

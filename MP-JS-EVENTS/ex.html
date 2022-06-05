@@ -1,0 +1,36 @@
+<html>
+  <style>
+    /* Dodaj kod */
+    #wrapper{
+      margin: 0 auto;
+      border: 2px solid black;
+    }
+    @media (orientation: portrait){
+      #wrapper{
+        width: 80vw;
+        height: 80vw;
+      }
+    }
+    @media (orientation: landscape) {
+      #wrapper{
+        width: 80vh;
+        height: 80vh;
+      }
+    }
+    .cell{
+      display: table-cell;
+      border: 1px rgb(0, 0, 0, 0.4) dashed;
+    }
+    .row{
+      display: table-row;
+    }
+  </style>
+  <body>
+    <!-- Dodaj kod -->
+    <label for="color">Wybierz kolor</label>
+    <input type="color" name="color" id="color"> <br />
+    <label for="precision">Wybierz stopień precyzji</label><br />
+    <input type="number" name="precision" id="precision" min="0">
+    <script src="ex.js"></script>
+  </body>
+</html>

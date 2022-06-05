@@ -6,7 +6,7 @@ Zestrzel zbliżających się oponentów, unikając równocześnie pocisków wyst
 Każdy przeciwnik może przyjąć **3 trafienia** zanim polegnie na polu bitwy.  
 Nie pozwól zbliżyć się oddziałom wroga. Celuj rozważnie!
 
-![Space Invaders Gameplay](https://github.com/Minosyx/MP-JS-PROJECT/blob/master/screen.PNG "Space Invaders")
+![Space Invaders Gameplay](https://github.com/Minosyx/OPSS-JavaScript/blob/main/MP-JS-PROJECT/screen.PNG "Space Invaders")
 
 ## Sterowanie
 
